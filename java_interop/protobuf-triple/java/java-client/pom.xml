@@ -55,6 +55,7 @@
                 <configuration>
                     <!--suppress UnresolvedMavenProperty -->
                     <protocArtifact>com.google.protobuf:protoc:3.19.4:exe:${os.detected.classifier}</protocArtifact>
+                    <outputDirectory>${project.basedir}/../build/protobuf/java</outputDirectory>
                     <protocPlugins>
                         <protocPlugin>
                             <id>dubbo</id>
