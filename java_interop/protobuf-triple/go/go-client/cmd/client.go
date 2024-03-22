@@ -25,19 +25,12 @@ import (
 	"github.com/dubbogo/gost/log/logger"
 )
 
-// export DUBBO_GO_CONFIG_PATH=$PATH_TO_SAMPLES/rpc/triple/pb/dubbogo-java/go-client/conf/dubbogo.yml
+// export DUBBO_GO_CONFIG_PATH=$PATH_TO_SAMPLES/java_interop/protobuf-triple/go/go-client/conf/dubbogo.yml
 func main() {
 
 	cli, err := client.NewClient(
 		client.WithClientURL("127.0.0.1:36969"),
 	)
-	if err != nil {
-		panic(err)
-	}
-	if err != nil {
-		panic(err)
-	}
-
 	if err != nil {
 		panic(err)
 	}
